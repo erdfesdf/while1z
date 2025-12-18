@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    int bebra = 0;
-    int goat = 100;
+    int reichi = 0;
+    int cupsize = 100;
     while (goat != 0) {
         cout << "enternum: \n";
         cin >> goat;
-        bebra = bebra + goat;
+        bebra = reichi + cupsize;
     }
-    cout << bebra;
+    cout << reichi;
 }
