@@ -1,0 +1,13 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int reichi;
+    cin >> reichi;
+    int golodni=1;
+    while (golodni != 11) {
+        cout << reichi << " * " << golodni << " = " << reichi * golodni << endl;
+        golodni++;
+    }
+}
