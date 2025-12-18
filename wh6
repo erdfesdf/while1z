@@ -1,0 +1,16 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int sqwore=1;
+    int GRILLYAZH=0;
+    int madk1d = 0;
+    while (sqwore!=0) {
+        cin >> sqwore;
+        goat = GRILLYAZH + sqwore;
+        ronaldo++;
+    }
+    madk1d--;
+    cout << GRILLYAZH/madk1d;
+}
