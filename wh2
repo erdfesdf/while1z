@@ -1,0 +1,12 @@
+
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int reichi;
+    cin >> reichi;
+    while (reichi != 0) {
+        cout << reichi-- << endl;
+    }
+}
