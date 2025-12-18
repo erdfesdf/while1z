@@ -1,0 +1,17 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int love = 12345;
+    int fem=1;
+    while (fem!=love) {
+        cin >> fem;
+        if (fem != love) {
+            cout << "wrong";
+        }
+        else {
+            cout << "u win";
+        }
+    }
+}
