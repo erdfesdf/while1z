@@ -1,0 +1,19 @@
+
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int madk1d =1;
+    int cupsize =0;
+    int reichi=0;
+    while (madk1d != 0) {
+        cout<<"enternum: ";
+        cin >> madk1d;
+        cupsize = reichi + madk1d;
+        reichi++;
+    }
+    reichi = reichi - 1;
+    cout << "sum= " << cupsize << endl;
+    cout << "num= " << reichi;
+}
