@@ -1,0 +1,14 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int cupsize;
+    cin >> cupsize;
+    int reichi=0;
+    while (cupsize != 0) {
+        cupsize=cupsize/10;
+        reichi++;
+    }
+    cout << reichi;
+}
